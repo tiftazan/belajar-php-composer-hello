@@ -1,0 +1,19 @@
+{
+    "name": "santringoding/belajar-php-composer-salam",
+    "description": "Library Composer Salam",
+    "type": "library",
+    "authors": [
+        {
+            "name": "tiftazani",
+            "email": "tiftazanisteve@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "SantriNgoding\\Belajar\\" : "src/"
+        }
+    }
+}
